@@ -12,8 +12,10 @@
 // connectToDatabase("thallentos-database");
 
 //3- Faço do jeito abaixo caso eu queira exportar mais de uma coisa
-// import {connectToDatabase, disconnectToDatabase} from "./utils/database.js";
+import {connectToDatabase, disconnectToDatabase, databaseType} from "./utils/database.js";
+import * as api from "./utils/api.js";
 
 // Chamo as funções desse jeito caso eu as chame do jeito acime
-// connectToDatabase("thallentos-database");
-// disconnectToDatabase("thallentos-database");
+connectToDatabase("thallentos-database");
+api.getDataFromApi();
+disconnectToDatabase("thallentos-database");
