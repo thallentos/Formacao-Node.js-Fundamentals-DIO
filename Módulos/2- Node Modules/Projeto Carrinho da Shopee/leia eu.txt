@@ -1,1 +1,1 @@
-link do repositório no GItHub:
+link do repositório no GitHub: https://github.com/thallentos/Node-Carrinho-Shopee-DIO
