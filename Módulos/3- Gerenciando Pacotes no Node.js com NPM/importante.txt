@@ -1,0 +1,16 @@
+// Como reconstruir dependencias
+Desinstale a pasta "node_modules" quando for versionar para o GitHub
+e, para reconstruir tudo, digite no terminal "npm i", porque o arquivo
+"package-lock.json" dá toda essa "receita" de reconstrução para o Node
+
+// Como declarar um pacote como DevDependency
+É só colocar "-D" no final da linha de código. 
+Por exemplo: "npm i log-symbols -D"
+E isso não será enviado quando for versionado e aparecerá como "DevDependency"
+no meu "package.json"
+
+// Desinstalando um package
+Digitando "npm unistall" + (nome do package)
+
+//Atualizar um package
+Digitando "npm update" + (nome do package)
