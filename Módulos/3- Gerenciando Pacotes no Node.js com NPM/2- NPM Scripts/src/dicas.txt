@@ -1,0 +1,23 @@
+// Verificando onde ficam os NPM Scripts
+// no arquivo "package.json"
+fica dentro da parte "scripts"
+
+// Como rodar NPM Scripts
+
+1- indo no terminal e digitando
+"npm run" {nome do script}
+
+2- vendo o script no Scripts NPM no canto
+inferior esquerdo e clicando no botão de play
+
+// NPMS mais comuns
+1- "prebuild": "npm install":
+Baixa todas as dependências ANTES de você
+rodar o programa principal
+
+2- "start:dev": "node src/index.js":
+Roda o programa principal
+
+3- "start:watch": "node --watch":
+Habilita o Watch que roda automaticamente
+cada linha que você acaba de alterar
