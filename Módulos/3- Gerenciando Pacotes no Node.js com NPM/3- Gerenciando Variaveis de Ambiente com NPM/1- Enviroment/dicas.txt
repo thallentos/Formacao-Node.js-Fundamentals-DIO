@@ -1,0 +1,5 @@
+// DICA IMPORTANTE!!
+o arquivo ".env" precisa estar na
+raíz do projeto, do ladinho do "package.json",
+não podendo estar na mesma pasta que o 
+arquivo principal (index.js)

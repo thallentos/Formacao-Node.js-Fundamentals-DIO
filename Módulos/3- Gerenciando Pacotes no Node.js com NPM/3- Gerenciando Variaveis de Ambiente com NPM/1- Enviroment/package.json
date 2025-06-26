@@ -1,0 +1,16 @@
+{
+  "name": "1--enviroment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "node --env-file=.env --watch src/database/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.5.0"
+  }
+}
